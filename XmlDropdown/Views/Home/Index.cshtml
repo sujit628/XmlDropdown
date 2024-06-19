@@ -1,0 +1,8 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+ <h2 class="text-center">Dropdown List Example</h2>
+<div class="d-flex justify-content-center d">
+    @Html.DropDownList("SelectedValue", ViewBag.DropDownItems as List<SelectListItem>)
+</div>
